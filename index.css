@@ -1,0 +1,70 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+.app{
+ background-image: url('./img/cool.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+.app.warm{
+  background-image: url(
+    './img/sunny.webp'
+  );
+}
+.app.appE{
+  background-image: url('./img/empty.webp');
+}
+main{
+  height: 100vh;
+
+}
+.searchbox{
+  width: 100%;
+  margin: 0 0 75px;
+}
+.searchbox .search-box{
+  background-color:wheat;
+  margin: auto;
+  padding-top: 1vh;
+  border: none;
+  display: block;
+  border-radius: 0% 0% 1% 1%;
+  font-size: x-large;
+}
+.location{
+  color: blue;
+  text-align: center;
+  font-size: large;
+}
+.date{
+  text-align: center;
+  font-style: oblique;
+  font-size: larger;
+  color: blue;
+}
+.weather-box{
+  text-align: center;
+}
+.weather{
+  text-align: center;
+  font-style: oblique;
+  font-size: larger;
+  color: blue;
+}
+.weather-box .temp{
+  background-origin: padding-box;
+  display: inline;
+  border: 50px;
+  border-radius: 15px;
+  text-align: center;
+  font-style: oblique;
+  font-size: larger;
+  color: blue;
+  box-shadow: 3px,6px,rgba(70, 12, 25, 0.5);
+
+}
